@@ -3098,4 +3098,17 @@ hr {
   .blog-newsletter-area .newsletter-title {
     font-size: 22px;
   }
+
+  .top-right-navigation {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .moon-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
 }
