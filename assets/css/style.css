@@ -59,7 +59,7 @@ h2 {
 
 .custom-btn2 {
   border: none;
-  width: 150px;
+  width: 180px;
   height: 50px;
   font-size: 18px;
   font-weight: 500;
@@ -1271,6 +1271,7 @@ hr {
 }
 .speakers-gallery-sec .speakers-gallery-items-wrap {
   position: relative;
+  margin-top: 30px;
 }
 .speakers-gallery-sec .speakers-gallery-items-wrap .speakers-gallery-item {
   position: relative;
@@ -2029,7 +2030,7 @@ hr {
 /* info sec start */
 .info-sec {
   position: relative;
-  top: -100px;
+  top: 10px;
 }
 .info-sec .info-countdown {
   background-size: cover;
