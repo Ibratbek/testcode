@@ -75,10 +75,10 @@
       var $this = $(this).html(
         event.strftime(
           "" +
-            '<li class="days"><strong class="day2">%D</strong><span class="d-block">Days</span></li>' +
-            '<li class="hours"><strong class="hours2">%H</strong><span class="d-block">Hours</span></li>' +
-            '<li class="minutes"><strong class="min2">%M</strong><span class="d-block">Minutes</span></li>' +
-            '<li class="seconds"><strong class="sec2">%S</strong><span class="d-block">Seconds</span></li>'
+            '<li class="days"><strong class="day2">%D</strong><span class="d-block">Дни</span></li>' +
+            '<li class="hours"><strong class="hours2">%H</strong><span class="d-block">Часы</span></li>' +
+            '<li class="minutes"><strong class="min2">%M</strong><span class="d-block">Минуты</span></li>' +
+            '<li class="seconds"><strong class="sec2">%S</strong><span class="d-block">Секунды</span></li>'
         )
       );
     });

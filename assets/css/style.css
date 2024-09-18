@@ -63,7 +63,8 @@ h2 {
   height: 50px;
   font-size: 18px;
   font-weight: 500;
-  background: linear-gradient(97.14deg, #7579ff 7.11%, #b224ef 97.04%);
+  background-color: #3489eb;
+  /* background: linear-gradient(97.14deg, #3489eb 7.11%, #3489eb 97.04%); */
   border-radius: 32px;
   text-align: center;
   color: white;
@@ -438,11 +439,15 @@ hr {
   margin-bottom: 30px;
 }
 .hero-sec .item-content .item-sub {
-  font-size: 20px;
+  font-size: 24px;
   color: #212121;
   line-height: 25px;
   margin-bottom: 70px;
 }
+.main-color {
+  color: #3489eb !important;
+}
+
 .hero-sec .item-content .button-group button:not(:last-child) {
   margin-right: 10px;
 }
@@ -1424,6 +1429,11 @@ hr {
   font-size: 20px;
   font-weight: 700;
   color: #3a3b7b;
+}
+
+.brand-sec .brand-items-wrap .brand-item img {
+  min-width: 40px;
+  height: 40px;
 }
 
 /* brand sec end */
@@ -2843,6 +2853,10 @@ hr {
     font-size: 24px;
   }
 
+  .brand-sec {
+    visibility: hidden;
+  }
+
   .hero-sec .item-content2 .item-title2 {
     font-size: 52px;
     line-height: 80px;
@@ -2968,7 +2982,7 @@ hr {
   .custom-btn,
   .custom-btn2 {
     border: none;
-    width: 125px;
+    width: fit-content;
     height: 40px;
   }
 
@@ -3111,5 +3125,10 @@ hr {
   .moon-icon {
     font-size: 24px;
     margin-right: 10px;
+  }
+
+  .sponsors-img {
+    width: 40px !important;
+    height: 40px !important;
   }
 }
