@@ -59,12 +59,17 @@ h2 {
 
 .custom-btn2 {
   border: none;
-  width: 180px;
+  width: fit-content;
   height: 50px;
   font-size: 18px;
   font-weight: 500;
-  background-color: #3489eb;
+  /* background-color: #3489eb; */
   /* background: linear-gradient(97.14deg, #3489eb 7.11%, #3489eb 97.04%); */
+  background: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(0, 221, 214, 1) 0%,
+    rgba(51, 102, 255, 1) 90%
+  );
   border-radius: 32px;
   text-align: center;
   color: white;
@@ -1432,8 +1437,8 @@ hr {
 }
 
 .brand-sec .brand-items-wrap .brand-item img {
-  min-width: 40px;
-  height: 40px;
+  min-width: 50px;
+  height: 50px;
 }
 
 /* brand sec end */
@@ -2709,6 +2714,9 @@ hr {
   .hero-sec .highlight-text {
     margin: -240px 0 0 -60px;
   }
+  .button-group {
+    visibility: hidden !important;
+  }
 }
 /* max width 1199px */
 @media screen and (max-width: 1199px) {
@@ -2851,6 +2859,9 @@ hr {
 @media screen and (max-width: 767px) {
   h2 {
     font-size: 24px;
+  }
+  .button-group {
+    visibility: visible;
   }
 
   .brand-sec {
