@@ -6,10 +6,13 @@
   $(window).on("scroll", function () {
     if ($(this).scrollTop() > 120) {
       $(".header-nav").addClass("sticky");
+      $(".nav-link").css("color", "#000");
     } else {
       $(".header-nav").removeClass("sticky");
+      $(".nav-link").css("color", "#fff");
     }
   });
+
   /* sticky header - end */
 
   /* bg parallax - start */
